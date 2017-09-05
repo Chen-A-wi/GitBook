@@ -6,5 +6,5 @@
   * [Android Studio快捷鍵](androidpian/android-studiokuai-jie-jian.md)
 * [其他](chapter1.md)
   * [Mac相關](chapter1/macxiang-guan.md)
-    * Dropbox多開
+    * [Dropbox多開](chapter1/macxiang-guan/dropboxduo-kai.md)
 
