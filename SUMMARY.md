@@ -1,3 +1,7 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [其他](chapter1.md)
+  * [Mac相關](chapter1/macxiang-guan.md)
+    * Dropbox多開
+
