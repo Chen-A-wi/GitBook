@@ -11,7 +11,7 @@
 進入網站後須先點選接受協議“Accept License Agreement”。
 
 <center>
-  <img src="/assets/JDK.png" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
+  <img src="/assets/JDK.png" alt="JDK" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
 </center>
 
 點選後選擇你系統的安裝版本，等到下載完成後，依照指示操作即可完成Android Studio的安裝前置準備。
@@ -25,13 +25,13 @@
 下載完成後就直接安裝，在安裝過程中會出現下面方畫面，點選Next繼續。
 
 <center>
-  <img src="/assets/Android Install Step1.jpg" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
+  <img src="/assets/Android Install Step1.jpg" alt="Android Install Step1" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
 </center>
 
 接著Android Studio會問你想要哪種類型安裝選擇Standard標準安裝即可。
 
 <center>
-  <img src="/assets/Android Install Step2.jpg" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
+  <img src="/assets/Android Install Step2.jpg" alt="Android Install Step2" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
 </center>
 
 結束後即會看到下方的畫面代表你安裝結束嘍！
