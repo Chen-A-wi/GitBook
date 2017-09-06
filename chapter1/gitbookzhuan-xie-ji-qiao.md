@@ -45,7 +45,7 @@
 ##內崁HTML語法
 可以在Markdown中使用HTML語法來輔助顯示效果，如下先置中再更改字體顏色。
 
-```
+```html
 <center>
   <font color="red">aaa</font>
 </center>
