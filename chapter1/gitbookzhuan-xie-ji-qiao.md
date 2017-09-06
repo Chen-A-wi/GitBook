@@ -65,7 +65,7 @@
 ```
 
 <center>
-  <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.3)" width="240" height="180" border="10"/>
+  <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="240" height="180" border="10"/>
 </center>
 
 
