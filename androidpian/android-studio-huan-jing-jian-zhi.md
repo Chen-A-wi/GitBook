@@ -30,6 +30,10 @@
 
 接著Android Studio會問你想要哪種類型安裝選擇Standard標準安裝即可。
 
+<center>
+  <img src="/assets/Android Install Step2.jpg" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
+</center>
+
 
 
 
