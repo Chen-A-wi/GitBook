@@ -61,10 +61,8 @@
   <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png"   alt="Cowman" width="240" height="180" border="10"/>
 </center>
 ```
-<div style="border-radius:20%">
-  <center>
-    <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png"   alt="Cowman" style="border-radius:20px" width="240" height="180" border="10"/>
-  </center>
-</div>
+<center>
+    <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png"   alt="Cowman" style="border-radius:10px" width="240" height="180" border="10"/>
+</center>
 
 
