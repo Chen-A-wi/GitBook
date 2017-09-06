@@ -8,4 +8,5 @@
 * [其他](chapter1.md)
   * [Mac相關](chapter1/macxiang-guan.md)
     * [Dropbox多開](chapter1/macxiang-guan/dropboxduo-kai.md)
+    * [Gitbook撰寫技巧](chapter1/gitbookzhuan-xie-ji-qiao.md)
 
