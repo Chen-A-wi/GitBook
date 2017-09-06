@@ -63,7 +63,7 @@
 ```
 
 <center>
-  <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px; box-shadow:10px 10px 7px rgba(0, 0, 0, 0.7)" width="240" height="180" border="10"/>
+  <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 7px rgba(0, 0, 0, 0.7)" width="240" height="180" border="10"/>
 </center>
 
 
