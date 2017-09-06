@@ -66,4 +66,4 @@
   <img src="/assets/test.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="240" height="180" border="10"/>
 </center>
 
-參考資料：[**https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html**](https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html)
+參考資料：[**Cowman's Gitbook site**](https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html)
