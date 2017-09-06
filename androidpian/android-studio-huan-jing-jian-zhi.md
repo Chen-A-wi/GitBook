@@ -22,6 +22,12 @@
 
 [**Android Studio官網**](https://developer.android.com/studio/index.html)
 
+下載完成後就直接安裝，在安裝過程中會出現下面方畫面，點選Next繼續。
+
+<center>
+  <img src="/assets/Android Install Step1.jpg" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
+</center>
+
 
 
 
