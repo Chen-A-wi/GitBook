@@ -83,5 +83,5 @@ ln -s /path/folder1 /Users/MKnight/Dropbox/folder2
 
 [https://db.tt/KU7cXXJQ](https://db.tt/KU7cXXJQ)
 
-
+參考資料：[《姆奈》MKnight：Dropbox 在 Mac 上的密技](http://mkhere.blogspot.tw/2010/03/dropbox-mac.html)
 
