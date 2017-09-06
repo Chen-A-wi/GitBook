@@ -54,4 +54,9 @@
   <font color="red">aaa</font>
 </center>
 
+*  使用HTML內崁圖片
+
+```HTML
+<img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" width="240" height="180" border="10" />
+```
 
