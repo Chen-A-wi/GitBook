@@ -14,5 +14,15 @@
   <img src="/assets/JDK.png" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
 </center>
 
+點選後選擇你系統的安裝版本，等到下載完成後，依照指示操作即可完成Android Studio的安裝前置準備。
+
+##安裝Android Studio
+
+點選下方網址，會進入Android Studio下載頁面，點選Download即可下載。
+
+[**Android Studio官網**](https://developer.android.com/studio/index.html)
+
+
+
 
 
