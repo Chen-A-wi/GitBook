@@ -62,10 +62,9 @@
 </center>
 ```
 
-<div class="12px 12px 7px rgba(0, 0, 0, 0.7)">
 <center>
-    <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px" width="240" height="180" border="10"/>
+    <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px;box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7)" width="240" height="180" border="10"/>
 </center>
-</div>
+
 
 
