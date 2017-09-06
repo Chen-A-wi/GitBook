@@ -31,7 +31,7 @@
 接著Android Studio會問你想要哪種類型安裝選擇Standard標準安裝即可。
 
 <center>
-  <img src="/assets/Android Install Step2.png" alt="Android Install Step2" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
+  <img src="/assets/Android Install Step2.jpg" alt="Android Install Step2" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
 </center>
 
 結束後即會看到下方的畫面代表你安裝結束嘍！
