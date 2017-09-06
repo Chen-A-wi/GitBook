@@ -11,7 +11,7 @@
 進入網站後須先點選接受協議“Accept License Agreement”。
 
 <center>
-  <img src="/assets/JDK.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
+  <img src="/assets/JDK.png" alt="Cowman" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="360" border="10"/>
 </center>
 
 
