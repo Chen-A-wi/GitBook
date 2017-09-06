@@ -42,5 +42,9 @@
 
 **資料來源：**[**https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html**](https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html)
 
-<center>這有置中</center>
+##內崁HTML語法
+<center>
+<font color="red">aaa</font>
+</center>
+
 
