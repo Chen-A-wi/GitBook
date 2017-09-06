@@ -56,9 +56,11 @@
 
 *  使用HTML內崁圖片，含置中及圓角設定。
 
+** 陰影說明：**以上面的例子來說，參數的所有數值從左到右代表了：水平偏移，垂直偏移，陰影模糊距離（陰影顏色,透明度）， **透明度：**0 →完全透明， 1 →完全不透明。
+
 ```HTML
 <center>
-    <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png"   alt="Cowman" style="border-radius:5px" width="240" height="180" border="10"/>
+  <img src="/assets/螢幕快照 2017-09-06 下午2.34.27.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2)" width="240" height="180" border="10"/>
 </center>
 ```
 
