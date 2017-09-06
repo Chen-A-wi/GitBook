@@ -43,8 +43,15 @@
 **資料來源：**[**https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html**](https://cowmanchiang.me/gitbook/gitbook/contents/how/emphasis.html)
 
 ##內崁HTML語法
+可以在Markdown中使用HTML語法來輔助顯示效果，如下先置中再更改字體顏色。
+
+```
 <center>
-<font color="red">aaa</font>
+  <font color="red">aaa</font>
+</center>
+```
+<center>
+  <font color="red">aaa</font>
 </center>
 
 
