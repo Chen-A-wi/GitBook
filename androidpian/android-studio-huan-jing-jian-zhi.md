@@ -8,3 +8,11 @@
 
 [**JDK官網**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
+進入網站後須先點選接受協議“Accept License Agreement”。
+
+<center>
+  <img src="/assets/JDK.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="240" height="180" border="10"/>
+</center>
+
+
+
