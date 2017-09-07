@@ -161,7 +161,5 @@ public class StroeData
 
 # 建立Adapter
 
-
-
-
+那這樣可以媽
 
