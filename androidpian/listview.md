@@ -168,12 +168,12 @@ BaseAdapter與CursorAdapter是抽象類別，其他ArrayAdapter、SimpleAdapter�
 1. ArrayAdapter：
 當資料來源是陣列或List集合時，可使用ArrayAdapter
 
-2. SimpleCursorAdapter
+2. SimpleCursorAdapter：
 當資料來源是由資料庫(SQLite)查詢的Cursor結果時，可使用SimpleCursorAdapter。
 
-3. SimpleAdapter
+3. SimpleAdapter：
 資料來源是類似表格有列與欄的時候，可使用Map集合儲存列，再使用List將每一列收集後，使用SimpleAdapter。
 
-4. BaseAdapter
+4. BaseAdapter：
 當有客製化需求時，可繼承BaseAdapter後再自行實作對應的方法。
 
