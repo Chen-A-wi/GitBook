@@ -7,6 +7,7 @@
   * [Android Studio快捷鍵](androidpian/android-studiokuai-jie-jian.md)
   * [ListView](androidpian/listview.md)
   * [Automating User Interface Tests](androidpian/automating-user-interface-tests.md)
+  * [Singleton Pattern（獨體模式）](androidpian/singleton-patternff08-du-ti-mo-shi-ff09.md)
 * [其他](chapter1.md)
   * [Mac相關](chapter1/macxiang-guan.md)
     * [Dropbox多開](chapter1/macxiang-guan/dropboxduo-kai.md)
