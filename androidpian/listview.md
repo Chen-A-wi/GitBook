@@ -166,7 +166,7 @@ Adapter算是整個ListView的核心，可以使ListView實作它所制定的方
 BaseAdapter與CursorAdapter是抽象類別，其他ArrayAdapter、SimpleAdapter與SimpleCursorAdapter都是一般類別，可以直接建構出物件的類別。
 
 1. ArrayAdapter：  
-   當資料來源是陣列或List集合時，可使用ArrayAdapter
+   當資料來源是陣列或List集合時，可使用ArrayAdapter。
 
 2. SimpleCursorAdapter：  
    當資料來源是由資料庫\(SQLite\)查詢的Cursor結果時，可使用SimpleCursorAdapter。
