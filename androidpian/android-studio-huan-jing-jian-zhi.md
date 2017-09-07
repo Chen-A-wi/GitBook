@@ -37,7 +37,7 @@
 結束後即會看到下方的畫面代表你安裝結束嘍！
 
 <center>
-  <img src="/assets/Android Install Step3.jpg" alt="Android Install Step2" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
+  <img src="/assets/Android Install Step3.jpg" alt="Android Install Step3" style="border-radius:7px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="400" border="10"/>
 </center>
 
 
