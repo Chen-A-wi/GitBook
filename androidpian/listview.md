@@ -248,6 +248,8 @@ public class StoreAdapter extends BaseAdapter
 
 ## 實作MainActivity
 
+在MainActivity內就是單純餵入資料，初始化物件以及處理事件被觸發時該做的事情。
+
 ```java
 public class MainActivity extends AppCompatActivity
 {
