@@ -310,7 +310,7 @@ public class MainActivity extends AppCompatActivity
 }
 ```
 
-這有[GitHub]( https://github.com/Taiwan-A-wi/ListviewDemo)測試範例
+這有[GitHub](https://github.com/Taiwan-A-wi/ListviewDemo)測試範例
 
 參考資料：[**綠豆湯**]( https://litotom.com/2016/03/26/%E6%B8%85%E5%96%AE%E5%85%83%E4%BB%B6%E4%BB%8B%E7%B4%B9listview-adapter/l)
 
