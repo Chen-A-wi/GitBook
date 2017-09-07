@@ -192,6 +192,7 @@ public class StoreAdapter extends BaseAdapter
         Button mButton;
     }
 
+    //將ButtonOnClick事件藉由Adapter傳回ＭainAcivity
     public StoreAdapter(Context context, ArrayList<StroeData> listItem,
                         View.OnClickListener onClick) {
         mInflater = LayoutInflater.from(context);
@@ -201,7 +202,7 @@ public class StoreAdapter extends BaseAdapter
 
     @Override
     public int getCount() {
-        return mlistItem.size();
+        return mlistItem.size();//取得資料總筆數
     }
 
     @Override
@@ -227,15 +228,16 @@ public class StoreAdapter extends BaseAdapter
 
             convertView.setTag(holder);
         } else {
-            holder = (ViewHolder)convertView.getTag();
+            holder = (ViewHolder)convertView.getTag();//進入可視畫面時，取得超出可視畫面Item的佈局
         }
-
+        
+        //填入佈局內所定義的資料
         StroeData mStroeData = mlistItem.get(position);
         holder.mTitle.setText(mStroeData.getTitle());
         holder.mText.setText(mStroeData.getText());
         holder.mIcon.setImageResource(mStroeData.getIcon());
 
-        holder.mButton.setTag(mlistItem.get(position));
+        holder.mButton.setTag(mlistItem.get(position));//取得被點擊Button位於第幾個Item
         if(mButtonOnClickListen != null)
             holder.mButton.setOnClickListener(mButtonOnClickListen);
 
