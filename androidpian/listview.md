@@ -161,5 +161,5 @@ public class StroeData
 
 # 建立Adapter
 
-那這樣可以媽
+Adapter算是整個ListView的核心，可以使ListView實作它所制定的方法，如getCount方法可取得清單中的數量、	getView方法可得到特定展示元件等。
 
