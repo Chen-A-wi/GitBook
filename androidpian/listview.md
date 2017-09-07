@@ -163,5 +163,17 @@ public class StroeData
 
 Adapter算是整個ListView的核心，可以使ListView實作它所制定的方法，如getCount方法可取得清單中的數量、getView方法可得到特定展示元件等。
 
+BaseAdapter與CursorAdapter是抽象類別，其他ArrayAdapter、SimpleAdapter與SimpleCursorAdapter都是一般類別，可以直接建構出物件的類別。
 
+1. ArrayAdapter：
+當資料來源是陣列或List集合時，可使用ArrayAdapter
+
+2. SimpleCursorAdapter
+當資料來源是由資料庫(SQLite)查詢的Cursor結果時，可使用SimpleCursorAdapter。
+
+3. SimpleAdapter
+資料來源是類似表格有列與欄的時候，可使用Map集合儲存列，再使用List將每一列收集後，使用SimpleAdapter。
+
+4. BaseAdapter
+當有客製化需求時，可繼承BaseAdapter後再自行實作對應的方法。
 
