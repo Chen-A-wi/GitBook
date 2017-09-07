@@ -120,46 +120,48 @@ button.setFocusable(false);
 ```java
 public class StroeData
 {
-private String mTitle,mText;
-private int mIcon;
+    private String mTitle,mText;
+    private int mIcon;
 
-public StroeData(String title, String text, int icon) {
-setTitle(title);
-setText(text);
-setIcon(icon);
-}
+    public StroeData(String title, String text, int icon) {
+        setTitle(title);
+        setText(text);
+        setIcon(icon);
+    }
 
-//region ================================ GetMethod ============================================
-public String getTitle() {
-return mTitle;
-}
+    //region ================================ GetMethod ============================================
+    public String getTitle() {
+        return mTitle;
+    }
 
-public String getText() {
-return mText;
-}
+    public String getText() {
+        return mText;
+    }
 
-public int getIcon() {
-return mIcon;
-}
-//endregion
+    public int getIcon() {
+        return mIcon;
+    }
+    //endregion
 
-//region ================================ SetMethod ============================================
-public void setTitle(String title) {
-this.mTitle = title;
-}
+    //region ================================ SetMethod ============================================
+    public void setTitle(String title) {
+        this.mTitle = title;
+    }
 
-public void setText(String text) {
-this.mText = text;
-}
+    public void setText(String text) {
+        this.mText = text;
+    }
 
-public void setIcon(int icon) {
-this.mIcon = icon;
-}
-//endregion
+    public void setIcon(int icon) {
+        this.mIcon = icon;
+    }
+    //endregion
 }
 ```
 
-# 建立
+# 建立Adapter
+
+
 
 
 
