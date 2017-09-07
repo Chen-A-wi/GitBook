@@ -109,7 +109,7 @@ android:clickable="true"
 button.setFocusable(false);
 ```
 
-# 建立Data
+## 建立Data
 
 這裡先建立處理資料的class，處理像是Title，text，image等要置換的資料。
 
@@ -159,7 +159,7 @@ public class StroeData
 }
 ```
 
-# 建立Adapter
+## 建立Adapter
 
 Adapter算是整個ListView的核心，可以使ListView實作它所制定的方法，如getCount方法可取得清單中的數量、getView方法可得到特定展示元件等。
 
@@ -230,7 +230,7 @@ public class StoreAdapter extends BaseAdapter
         } else {
             holder = (ViewHolder)convertView.getTag();//進入可視畫面時，取得超出可視畫面Item的佈局
         }
-        
+
         //填入佈局內所定義的資料
         StroeData mStroeData = mlistItem.get(position);
         holder.mTitle.setText(mStroeData.getTitle());
@@ -242,6 +242,68 @@ public class StoreAdapter extends BaseAdapter
             holder.mButton.setOnClickListener(mButtonOnClickListen);
 
         return convertView;
+    }
+}
+```
+
+## 實作MainActivity
+
+```java
+public class MainActivity extends AppCompatActivity
+{
+    private StoreAdapter StoreAdpter;
+    private ListView mListView;
+    private ArrayList<StroeData> mListItem;
+    private Button mButton;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        initObj();
+        initAdapter();
+    }
+
+    private void initObj() {
+        mListView = (ListView)findViewById(R.id.listView);
+
+        enterData();
+    }
+
+    private void enterData() {
+        StroeData itemData1 = new StroeData("大安店","好讚",R.drawable.cat_icon);
+        StroeData itemData2 = new StroeData("龍潭店","好讚",R.drawable.cat_icon);
+
+        mListItem = new ArrayList<StroeData>();
+        for (int i = 0; i < 20; i++) {
+            mListItem.add(itemData1);
+            mListItem.add(itemData2);
+        }
+    }
+
+    private void initAdapter() {
+        StoreAdpter = new StoreAdapter(this, mListItem, mButtonOnClickListen);//透過Adapter回傳按鈕監聽事件
+        mListView.setAdapter((ListAdapter) StoreAdpter);
+
+        //Item觸發監聽
+        mListView.setOnItemClickListener(new itemOnClickListen());
+    }
+
+    private View.OnClickListener mButtonOnClickListen = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Button evtBtn = (Button)view;
+            StroeData tag = (StroeData)evtBtn.getTag();
+            Toast.makeText(MainActivity.this,"你按"+ String.valueOf(tag.getTitle()) +"按鈕是嗎？",Toast.LENGTH_LONG).show();
+        }
+    };
+
+    private class itemOnClickListen implements AdapterView.OnItemClickListener {
+        @Override
+        public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+        }
     }
 }
 ```
