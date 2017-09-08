@@ -10,6 +10,8 @@
 
 * **清除無效引用：**control + alt + O
 
+* **加入引用：**alt + enter
+
 * **專案全部搜尋：**command + shift +F
 
 * **搜尋：**command + F

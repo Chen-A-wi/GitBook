@@ -23,6 +23,7 @@ Preferences --&gt; Plugins直接搜尋已安裝的插件，接著壓Uninstall即
 3. **LayoutFormatter:**
 
    xml格式化整理，快捷鍵command + alt + F。
+
 4. 
 
 
