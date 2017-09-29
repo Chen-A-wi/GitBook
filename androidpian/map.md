@@ -90,5 +90,5 @@ for (Map.Entry<String, String> entry : treeMap.entrySet()) {
 }
 ```
 <center>
-  <img src="/assets/TreeMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="100" border="10"/>
+  <img src="/assets/TreeMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="300" border="10"/>
 </center>
