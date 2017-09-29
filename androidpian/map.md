@@ -33,3 +33,8 @@ for (Map.Entry<String,String> entry:hashMap.entrySet()) {
 ##LinkedHashMap
 
 LinkedHashMap內部是用linked list來維護其順序性，所以在iterate時其結果乃是依照元素的插入順序或最近最少使用(least-recently-used)順序。在使用上其與hashmap相似，速度只稍差些；但在iterate時卻是比hashmap還來得快。
+
+<center>
+  <img src="/assets/LinkedHashMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="100" border="10"/>
+</center>
+
