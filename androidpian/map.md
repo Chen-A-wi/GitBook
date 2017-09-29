@@ -89,3 +89,6 @@ for (Map.Entry<String, String> entry : treeMap.entrySet()) {
     System.out.println(entry.getKey() + "   " + entry.getValue());
 }
 ```
+<center>
+  <img src="/assets/TreeMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="100" border="10"/>
+</center>
