@@ -26,7 +26,6 @@ for (Map.Entry<String,String> entry:hashMap.entrySet()) {
 
 從輸出結果中我們可以看到，hashMap輸出key時，並沒有依照插入時的順序，也沒有依照Key或是Value所排序，所以我們若需要有排序功能的map時，不能選擇HashMap。
 
-
 <center>
   <img src="/assets/HashMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="750" height="100" border="10"/>
 </center>
