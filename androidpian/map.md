@@ -44,7 +44,7 @@ linkedHashMap.put("4", "Thu");
 linkedHashMap.put("5", "Fri");
 
 for (Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
-  System.out.println(entry.getKey() + "   " + entry.getValue());
+    System.out.println(entry.getKey() + "   " + entry.getValue());
 }
 ```
 
