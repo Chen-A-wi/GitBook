@@ -6,6 +6,7 @@
   * [Android Studio必裝插件](androidpian/android-studiobi-zhuang-cha-jian.md)
   * [Android Studio快捷鍵](androidpian/android-studiokuai-jie-jian.md)
   * [ListView](androidpian/listview.md)
+  * [Map](androidpian/map.md)
   * [Automating User Interface Tests](androidpian/automating-user-interface-tests.md)
   * [Singleton Pattern（獨體模式）](androidpian/singleton-patternff08-du-ti-mo-shi-ff09.md)
   * [GitHub推薦插件](androidpian/githubtui-jian-cha-jian.md)
