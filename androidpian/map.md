@@ -28,7 +28,7 @@ for (Map.Entry<String,String> entry:hashMap.entrySet()) {
 
 
 <center>
-  <img src="/assets/HashMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="950" height="100" border="10"/>
+  <img src="/assets/HashMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="900" height="100" border="10"/>
 </center>
 
 
