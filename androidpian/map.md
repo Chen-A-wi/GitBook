@@ -54,3 +54,6 @@ for (Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
   <img src="/assets/LinkedHashMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="100" border="10"/>
 </center>
 
+##TreeMap
+
+其特點是其key set或key-value pair是有順序性的，而順序為natual ordering或是由所傳入的comparator來決定。另外TreeMap也是唯一提供submap()函式的map。
