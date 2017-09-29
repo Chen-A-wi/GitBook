@@ -72,6 +72,6 @@ treeMap.put("4", "Thu");
 treeMap.put("5", "Fri");
 
 for (Map.Entry<String, String> entry : treeMap.entrySet()) {
-            System.out.println(entry.getKey() + "   " + entry.getValue());
+    System.out.println(entry.getKey() + "   " + entry.getValue());
 }
 ```
