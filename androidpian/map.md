@@ -59,6 +59,20 @@ for (Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
 其特點是其key set或key-value pair是有順序性的，而順序為natual ordering或是由所傳入的comparator來決定。另外TreeMap也是唯一提供submap()函式的map。
 
 ```java
+Map<String, String> treeMap= new TreeMap<String,String> ();
+
+treeMap.put("2", "Tue");
+treeMap.put("3", "Wed");
+treeMap.put("1", "Mon");
+treeMap.put("4", "Thu");
+treeMap.put("5", "Fri");
+
+for (Map.Entry<String, String> entry : treeMap.entrySet()) {
+    System.out.println(entry.getKey() + "   " + entry.getValue());
+}
+
+System.out.println("----------by comparator");
+
 treeMap = new TreeMap<String,String> (new Comparator<String>() {
     public int compare(String o1, String o2) {
         return o2.compareTo(o1);
