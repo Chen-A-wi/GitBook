@@ -62,7 +62,7 @@ for (Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
 treeMap = new TreeMap<String,String> (new Comparator<String>() {
     public int compare(String o1, String o2) {
         return o2.compareTo(o1);
-        }
+    }
 });
 
 treeMap.put("2", "Tue");
