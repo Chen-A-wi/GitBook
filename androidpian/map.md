@@ -56,7 +56,7 @@ for (Map.Entry<String, String> entry : linkedHashMap.entrySet()) {
 
 ##TreeMap
 
-其特點是其key set或key-value pair是有順序性的，而順序為natual ordering或是由所傳入的comparator來決定。另外TreeMap也是唯一提供submap()函式的map。
+其特點是其key set或key-value pair是有順序性的，而順序為自然排序或是由所傳入的comparator來決定。另外TreeMap也是唯一提供submap()函式的map。
 
 ```java
 Map<String, String> treeMap= new TreeMap<String,String> ();
@@ -92,3 +92,7 @@ for (Map.Entry<String, String> entry : treeMap.entrySet()) {
 <center>
   <img src="/assets/TreeMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="550" height="300" border="10"/>
 </center>
+
+##EnumMap
+
+特別之處在於只接受列舉(Enumeration)為Key，也因其只接受列舉為key，不像HashMap能接受各種型態的物件作為key，故在實作上能特地為此種情況最佳化。
