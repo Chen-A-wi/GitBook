@@ -133,6 +133,8 @@ enum Keys {
 }
 ```
 
+可看到輸出的順序為key按照自然排序法(Natural Ordering)的排序。
+
 <center>
   <img src="/assets/EnumMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="150" border="10"/>
 </center>
