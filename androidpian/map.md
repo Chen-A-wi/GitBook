@@ -131,6 +131,20 @@ enum Keys {
         return this.code;
     }
 }
+
+private void enumMap() {
+    System.out.println("======= EnumMap =======");
+
+    enumMap.put(Keys.B, "Tue");
+    enumMap.put(Keys.C, "Wed");
+    enumMap.put(Keys.A, "Mon");
+    enumMap.put(Keys.D, "Thu");
+    enumMap.put(Keys.E, "Fri");
+
+    for (Map.Entry<Keys, String> entry: enumMap.entrySet()) {
+        System.out.println(entry.getKey()+" "+entry.getKey().getCode()+" "+entry.getValue());
+    }
+}
 ```
 
 可看到輸出的順序為key按照自然排序法(Natural Ordering)排序。
