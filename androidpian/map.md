@@ -133,8 +133,6 @@ enum Keys {
 }
 
 private void enumMap() {
-    System.out.println("======= EnumMap =======");
-
     enumMap.put(Keys.B, "Tue");
     enumMap.put(Keys.C, "Wed");
     enumMap.put(Keys.A, "Mon");
