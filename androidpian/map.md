@@ -134,5 +134,5 @@ enum Keys {
 ```
 
 <center>
-  <img src="/assets/EnumMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="550" height="300" border="10"/>
+  <img src="/assets/EnumMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="500" height="250" border="10"/>
 </center>
