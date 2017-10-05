@@ -151,5 +151,7 @@ private void enumMap() {
   <img src="/assets/EnumMap Log.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="150" border="10"/>
 </center>
 
+這有[GitHub](https://github.com/Chen-A-wi/MapDemo)測試範例
+
 參考資料：[**華勒斯筆記本**]( 
 http://note-whu.rhcloud.com/2015/09/29/%E5%B8%B8%E8%A6%8Bmap%E7%9A%84%E7%89%B9%E8%89%B2%E5%8F%8A%E7%94%A8%E6%B3%95/)
