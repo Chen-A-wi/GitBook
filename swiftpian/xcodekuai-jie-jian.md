@@ -8,6 +8,8 @@
 
 * **停止執行：**command + .
 
+* **清理專案執行檔：**command + shift + K
+
 * **全專案搜索：**command + shift + F
 
 * **快速跳至方法/變數：**control + 6
@@ -21,5 +23,14 @@
 
 * **快速尋找檔案：**command + shift + O
 
+* **前一行：**control + P
+
+* **下一行：**control + N
+
+* **選中代碼左移：**command + \[
+
+* **選中代碼右移：**command + \]
+
+* 
 
 
