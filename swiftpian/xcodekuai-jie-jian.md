@@ -17,6 +17,9 @@
   * **移至下一個搜索：**command + G
   * **移置上一個搜索：**command + shift + G
 
-* 
+* **顯示目前檔案位置：**command + shift + J
+
+* **快速尋找檔案：**command + shift + O
+
 
 
