@@ -31,6 +31,13 @@
 
 * **選中代碼右移：**command + \]
 
-* 
+* **選中代碼上移：**command + option + \[
+
+* **選中代碼下移：**command + option + \]
+
+* 開新檔案：command + N
+
+* 開心專案：command + shift + N
+
 
 
