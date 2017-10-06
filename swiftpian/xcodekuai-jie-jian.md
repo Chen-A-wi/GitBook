@@ -35,9 +35,9 @@
 
 * **選中代碼下移：**command + option + \]
 
-* 開新檔案：command + N
+* **開新檔案：**command + N
 
-* 開心專案：command + shift + N
+* **開新專案：**command + shift + N
 
 
 
