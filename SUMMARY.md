@@ -14,6 +14,7 @@
   * [XCode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
   * [Label](swiftpian/label.md)
+  * [CGRect、CGPoint和CGSize差別](swiftpian/cgrectcgpointhe-cgsize-cha-bie.md)
 * [其他](chapter1.md)
   * [Mac相關](chapter1/macxiang-guan.md)
     * [Dropbox多開](chapter1/macxiang-guan/dropboxduo-kai.md)
