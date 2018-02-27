@@ -29,4 +29,14 @@ compile 'de.hdodenhof:circleimageview:2.1.0'
 
 作者[GitHub](https://github.com/hdodenhof/CircleImageView)
 
+---
+
+##FloatingActionButton
+
+**加入Library：**
+
+compile 'com.github.clans:fab:1.6.4'
+
+作者[GitHub](https://github.com/Clans/FloatingActionButton)
+
 
