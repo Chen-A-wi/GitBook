@@ -14,6 +14,8 @@
 
 * **專案全部搜尋：**command + shift +F
 
+* **尋找檔案：**command + shift + O
+
 * **搜尋：**command + F
 
 * **刪除整行：**command + delete
