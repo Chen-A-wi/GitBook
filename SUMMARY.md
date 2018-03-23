@@ -11,7 +11,7 @@
   * [Singleton Pattern（獨體模式）](androidpian/singleton-patternff08-du-ti-mo-shi-ff09.md)
   * [GitHub推薦插件](androidpian/githubtui-jian-cha-jian.md)
 * [Swift篇](swiftpian.md)
-  * [XCode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
+  * [Xcode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
   * [Label](swiftpian/label.md)
   * [CGRect、CGPoint和CGSize差別](swiftpian/cgrectcgpointhe-cgsize-cha-bie.md)
