@@ -10,6 +10,7 @@
   * [Automating User Interface Tests](androidpian/automating-user-interface-tests.md)
   * [Singleton Pattern（獨體模式）](androidpian/singleton-patternff08-du-ti-mo-shi-ff09.md)
   * [GitHub推薦插件](androidpian/githubtui-jian-cha-jian.md)
+  * [物件相關設定](androidpian/wu-jian-xiang-guan-she-ding.md)
 * [Swift篇](swiftpian.md)
   * [Xcode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
