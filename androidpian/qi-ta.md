@@ -9,12 +9,12 @@ public class StoreInformationFragment extends Fragment {
 
     private String[] id;
     private TextView[] textViews = new TextView[2];
-    
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_store_information, container, false);
-        
+
         int temp;
         id = new String[]{"name", "address"};
 
@@ -28,6 +28,10 @@ public class StoreInformationFragment extends Fragment {
         } 
     }
 ```
+
+## 生成按鈕漸層設定Code
+
+[連結請點我](http://angrytools.com/android/button/)
 
 
 
