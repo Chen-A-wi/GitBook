@@ -12,6 +12,7 @@
   * [GitHub推薦插件](androidpian/githubtui-jian-cha-jian.md)
   * [物件相關設定](androidpian/wu-jian-xiang-guan-she-ding.md)
   * [其他](androidpian/qi-ta.md)
+    * [錯誤狀況紀錄](androidpian/qi-ta/cuo-wu-zhuang-kuang-ji-lu.md)
 * [Swift篇](swiftpian.md)
   * [Xcode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
