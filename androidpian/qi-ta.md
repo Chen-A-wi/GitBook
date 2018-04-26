@@ -51,7 +51,7 @@ public class StoreInformationFragment extends Fragment {
 
 由於是針對 Android 2.3 所寫的，所以不支援 FOCUS\_MODE\_CONTINUOUS\_PICTURE。
 
-在 Android 4.0 以上的版本 FOCUS\_MODE\_CONTINUOUS\_PICTURE,FOCUS\_MODE\_CONTINUOUS\_VIDEO 模式下，APP 可以呼叫 autoFocus\(AutoFocusCallback\)，藉此可以得知是否對焦已完成。
+在 Android 4.0 以上的版本 FOCUS\_MODE\_CONTINUOUS\_PICTURE、FOCUS\_MODE\_CONTINUOUS\_VIDEO 模式下，APP 可以呼叫 autoFocus\(AutoFocusCallback\)，藉此可以得知是否對焦已完成。
 
 ```java
     @Override
