@@ -21,8 +21,12 @@
   * fitCenter：
 
     當圖片比imageView大/小時，會依圖片之等比例縮放，並將其放在框的中間顯示，即大的圖縮小，小的圖放大。而fitStart則靠上顯示；fitEnd為靠下顯示。
-    
+
   * fitXY：
 
     圖片按照指定的大小在imageView中顯示，延展顯示圖片，不保持原有之比例，全部顯示圖片並填滿imageView。
+
+  # ExpandableListView
+
+
 
