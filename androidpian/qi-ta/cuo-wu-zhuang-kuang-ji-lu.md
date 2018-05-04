@@ -26,7 +26,7 @@
    Required by:
   ```
 
-  change "**build.gradle"** to this one.
+  change **"build.gradle"** to this one.
 
   ```
     buildscript {
