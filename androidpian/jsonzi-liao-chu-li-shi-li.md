@@ -16,7 +16,6 @@
 
 ``` Java
     Iterator <String> iterator = obj.keys();
-    Iterator <String> iterator = obj.keys();
         while (iterator.hasNext()) {
             String position = iterator.next();
             try {
