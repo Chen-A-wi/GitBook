@@ -11,13 +11,14 @@
 </center>
 
 
+
 ``` Java
-Iterator <String> iterator = obj.keys();
-        while (iterator.hasNext()) {
-            String position = iterator.next();
-            if(obj.get(position) instanceof JSONObject ){
-                dialogQuestion.add(obj.getJSONObject(position).getString("name") + " " +
-                        obj.getJSONObject(position).getString("code"));
+    Iterator <String> iterator = obj.keys();
+    while (iterator.hasNext()) {
+        String position = iterator.next();
+        if(obj.get(position) instanceof JSONObject ){
+            dialogQuestion.add(obj.getJSONObject(position).getString("name") + " " +
+                    obj.getJSONObject(position).getString("code"));
             }
 
         }
