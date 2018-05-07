@@ -11,7 +11,9 @@
 </center>
 
 
-主要是使用Interator，又可稱為"迭代器"，有點類似於ArrayList但又與ArrayList有些微上的不同，利用Interator的hasNext方法不斷地取得下一筆的Key值，但因為JsonObject必須使用try/catch防止例外狀況發生，但是這時你可能會想"instanceof"
+主要是使用Interator，又可稱為"迭代器"，有點類似於ArrayList但又與ArrayList有些微上的不同，利用Interator的hasNext方法不斷地取得下一筆的Key值，但因為JsonObject必須使用try/catch防止例外狀況發生，所以就會寫成如下方的code。
+
+但是這時你可能會想"instanceof"這是代表什麼意思呢？
 
 
 ``` Java
