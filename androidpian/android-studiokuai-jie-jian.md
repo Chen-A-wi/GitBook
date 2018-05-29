@@ -19,6 +19,6 @@
 * **搜尋：**command + F
 
 * **刪除整行：**command + delete
-
+[**參考資料**](http://lins126.blogspot.tw/2015/07/tools-android-studio.html)
 
 
