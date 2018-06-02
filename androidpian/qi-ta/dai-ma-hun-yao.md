@@ -65,7 +65,7 @@ android {
 #保留行號
 -keepattributes SourceFile,LineNumberTable
 
-#保持所有 Serializable 接口的類成员
+#保持所有 Serializable 接口的類成員
 -keepclassmembers class * implements java.io.Serializable {
     static final long serialVersionUID;
     private static final java.io.ObjectStreamField[] serialPersistentFields;
