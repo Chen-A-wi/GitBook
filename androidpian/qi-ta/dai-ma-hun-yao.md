@@ -57,7 +57,7 @@ android {
 #混淆類中的方法名
 -useuniqueclassmembernames
 
-#優化時允許訪問並修改有修飾符的類和類的成員
+#優化時允許訪問並修改有修飾符號的類和類的成員
 -allowaccessmodification
 
 #將文件来源重命名為“SourceFile”字符串
