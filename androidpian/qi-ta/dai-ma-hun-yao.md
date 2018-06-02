@@ -42,5 +42,7 @@ android {
 }
 ```
 
-參考資料：[**写给 Android 开发者的混淆使用手册**](https://www.diycode.cc/topics/380)
+參考資料：
+* [**写给 Android 开发者的混淆使用手册**](https://www.diycode.cc/topics/380)
+* [**Android Proguard(混淆)**](https://www.jianshu.com/p/60e82aafcfd0)
 
