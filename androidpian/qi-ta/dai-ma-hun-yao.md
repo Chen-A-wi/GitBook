@@ -6,7 +6,7 @@
 
 ## 基本混淆配置
 
-一般在 **`build.gradle(Module: app)`** 的預設應該是如下方所預設，接著可以照著這一步步進行修改。
+一般在**`build.gradle(Module: app)`**的預設應該是如下方所預設，接著可以照著這一步步進行修改。
 
 ```java
 android {
@@ -42,7 +42,7 @@ android {
 }
 ```
 
-接下來就可以進行混淆規則的撰寫了
+接下來就可以進行混淆規則的撰寫了，可在Gradle Scripts找到***`proguard-rules.pro(ProGuard Rules for app)`**檔案
 
 參考資料：
 
