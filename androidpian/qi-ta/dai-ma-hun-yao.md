@@ -6,7 +6,7 @@
 
 ## 基本混淆配置
 
-一般在 **`build.gradle(Module: app)`** 的預設應該是如下方所預設，接著可以照著這一步步進行修改。
+一般在 **```build.gradle(Module: app)```** 的預設應該是如下方所預設，接著可以照著這一步步進行修改。
 
 ```java
 android {
