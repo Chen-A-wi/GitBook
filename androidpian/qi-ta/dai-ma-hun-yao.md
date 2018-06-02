@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    ...
 }
 ```
 
@@ -24,6 +25,7 @@ android {
 
 ```java
 android {
+    ...
     buildTypes {
         release {
             // 混淆
@@ -34,9 +36,9 @@ android {
             shrinkResources true
             // 前一部分代表系统默認的android程序的混淆文件，該文件包含了基本的混淆聲明，後一个文件是自己的定義混淆文件
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
         }
     }
+    ...
 }
 ```
 
