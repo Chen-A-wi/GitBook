@@ -60,12 +60,12 @@ android {
 #優化時允許訪問並修改有修飾符的類和類的成員
 -allowaccessmodification
 
-#将文件来源重命名为“SourceFile”字符串
+#將文件来源重命名為“SourceFile”字符串
 -renamesourcefileattribute SourceFile
-#保留行号
+#保留行號
 -keepattributes SourceFile,LineNumberTable
 
-#保持所有实现 Serializable 接口的类成员
+#保持所有 Serializable 接口的類成员
 -keepclassmembers class * implements java.io.Serializable {
     static final long serialVersionUID;
     private static final java.io.ObjectStreamField[] serialPersistentFields;
@@ -75,11 +75,11 @@ android {
     java.lang.Object readResolve();
 }
 
-#Fragment不需要在AndroidManifest.xml中注册，需要额外保护下
+#Fragment不需要在AndroidManifest.xml中注冊，需要額外保護下
 -keep public class * extends android.support.v4.app.Fragment
 -keep public class * extends android.app.Fragment
 
-# 保持测试相关的代码
+# 保持側試相關的代碼
 -dontnote junit.framework.**
 -dontnote junit.runner.**
 -dontwarn android.test.**
