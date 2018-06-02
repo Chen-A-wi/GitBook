@@ -14,7 +14,7 @@
   * [Json資料處理實例](androidpian/jsonzi-liao-chu-li-shi-li.md)
   * [其他](androidpian/qi-ta.md)
     * [錯誤狀況紀錄](androidpian/qi-ta/cuo-wu-zhuang-kuang-ji-lu.md)
-    * [代碼混淆](androidpian/qi-ta/dai-ma-hun-yao.md)
+    * [程式碼混淆](androidpian/qi-ta/dai-ma-hun-yao.md)
 * [Swift篇](swiftpian.md)
   * [Xcode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
