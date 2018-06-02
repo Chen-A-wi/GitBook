@@ -6,7 +6,7 @@
 
 ## 基本混淆配置
 
-一般在**`build.gradle(Module: app)`**的預設應該是如下方所預設，接著可以照著這一步步進行修改。
+一般在`build.gradle(Module: app)`的預設應該是如下方所預設，接著可以照著這一步步進行修改。
 
 ```java
 android {
@@ -42,7 +42,50 @@ android {
 }
 ```
 
-接下來就可以進行混淆規則的撰寫了，可在Gradle Scripts找到***`proguard-rules.pro(ProGuard Rules for app)`**檔案
+接下來就可以進行混淆規則的撰寫了，可在Gradle Scripts找到`proguard-rules.pro(ProGuard Rules for app)`檔案進行自定義，這是開發者混淆手冊所提供通用於大部分的混淆規則，有需要可自行添加刪除。
+
+```java
+#指定壓縮级别
+-optimizationpasses 5
+
+#不跳過非公共庫的類成员
+-dontskipnonpubliclibraryclassmembers
+
+#混淆時採用的算法
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+#混淆類中的方法名
+-useuniqueclassmembernames
+
+#優化時允許訪問並修改有修飾符的類和類的成員
+-allowaccessmodification
+
+#将文件来源重命名为“SourceFile”字符串
+-renamesourcefileattribute SourceFile
+#保留行号
+-keepattributes SourceFile,LineNumberTable
+
+#保持所有实现 Serializable 接口的类成员
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+#Fragment不需要在AndroidManifest.xml中注册，需要额外保护下
+-keep public class * extends android.support.v4.app.Fragment
+-keep public class * extends android.app.Fragment
+
+# 保持测试相关的代码
+-dontnote junit.framework.**
+-dontnote junit.runner.**
+-dontwarn android.test.**
+-dontwarn android.support.test.**
+-dontwarn org.junit.**
+```
 
 參考資料：
 
