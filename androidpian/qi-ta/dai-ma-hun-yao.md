@@ -79,7 +79,7 @@ android {
 -keep public class * extends android.support.v4.app.Fragment
 -keep public class * extends android.app.Fragment
 
-# 保持側試相關的代碼
+# 保持測試相關的代碼
 -dontnote junit.framework.**
 -dontnote junit.runner.**
 -dontwarn android.test.**
