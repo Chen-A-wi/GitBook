@@ -13,7 +13,6 @@
   * [GitHub推薦插件](androidpian/githubtui-jian-cha-jian.md)
   * [物件相關設定](androidpian/wu-jian-xiang-guan-she-ding.md)
   * [Json資料處理實例](androidpian/jsonzi-liao-chu-li-shi-li.md)
-  * [取得經緯度](androidpian/qu-de-jing-wei-du.md)
 * [Swift篇](swiftpian.md)
   * [Xcode快捷鍵](swiftpian/xcodekuai-jie-jian.md)
   * [Swift基本語法](swiftpian/swiftji-ben-yu-fa.md)
