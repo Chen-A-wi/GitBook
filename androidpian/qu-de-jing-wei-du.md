@@ -2,7 +2,7 @@
 
 ---
 
-取得經緯度分為兩種方式一種為透過網路取得`NETWORK_PROVIDER`另一種則是透過GPS，稍等會詳加介紹。
+取得經緯度分為兩種方式一種為透過網路取得`NETWORK_PROVIDER`另一種則是透過GPS`GPS_PROVIDER`取得，稍等會詳加介紹。
 
 ```java
 public class LocationUtils {
@@ -41,10 +41,13 @@ public class LocationUtils {
             Log.d("LocationUtils", "没有可用的定位");
             return;
         }
-        if (Build.VERSION.SDK_INT >= 23 && ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (Build.VERSION.SDK_INT >= 23 && 
+        ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && 
+        ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }
-        if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && 
+        ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }
         Location location = locationManager.getLastKnownLocation(locationProvider);
@@ -112,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Location location = LocationUtils.getInstance(MainActivity.this).showLocation();
                 if (location != null) {
-                    String address = "纬度：" + location.getLatitude() + "经度：" + location.getLongitude();
+                    String address = "緯度：" + location.getLatitude() + "經度：" + location.getLongitude();
                     Log.d("FLY.LocationUtils", address);
                     text.setText(address);
                 }
