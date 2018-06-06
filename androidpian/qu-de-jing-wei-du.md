@@ -66,7 +66,9 @@ public class LocationUtils {
     }
 
     public void removeLocationUpdatesListener() {
-        if (Build.VERSION.SDK_INT >= 23 && ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (Build.VERSION.SDK_INT >= 23 && 
+        ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && 
+        ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }
         if (locationManager != null) {
@@ -124,10 +126,9 @@ public class MainActivity extends AppCompatActivity {
         LocationUtils.getInstance(this).removeLocationUpdatesListener();
     }
 }
-
 ```
 
-參考資料：
-[**Android通过原生APi获取经纬度**](https://www.jianshu.com/p/7ebbd2db749d)
+參考資料：  
+[**Android通过原生APi获取经纬度**](https://www.jianshu.com/p/7ebbd2db749d)  
 [**GPS定位經緯度**](https://my.oschina.net/JiangTun/blog/897650)
 
