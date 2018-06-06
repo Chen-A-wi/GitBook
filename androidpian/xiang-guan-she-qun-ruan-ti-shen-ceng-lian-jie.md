@@ -40,7 +40,7 @@
   startActivity(intentFB);
   ```
 
-  更多資訊可以參考[**The Simplest Way to Share Messages on Social Network from Web App**](https://medium.com/@balaji.sankar/the-simplest-way-to-share-messages-on-social-network-from-web-app-e349f5701e7f)
+  參考資料：[**The Simplest Way to Share Messages on Social Network from Web App**](https://medium.com/@balaji.sankar/the-simplest-way-to-share-messages-on-social-network-from-web-app-e349f5701e7f)
 
 
 
