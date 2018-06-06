@@ -9,7 +9,7 @@
     首先開啟你的終端機輸入`ssh-keygen`。
 
   * Step2:  
-    壓Enter鍵，終端機會請你輸入兩次密碼(不想設密碼可以直接壓Enter)。
+    壓Enter鍵，終端機會請你輸入兩次密碼\(不想設密碼可以直接壓Enter\)。
 
   * Step3:  
     輸入`cat .ssh/id_rsa.pub`之後燒等下就會印出ssh金鑰了。
@@ -19,19 +19,20 @@
 * ## Windows
 
   * Step1:
-  
+
     首先去下載[Git](https://gitforwindows.org/)。
-    
+
   * Step2:
-  
-      開啟你的終端機輸入`ssh-keygen`。
+
+    開啟你的終端機輸入`ssh-keygen`。
 
   * Step3:
-  
-    壓Enter鍵，終端機會請你輸入兩次密碼(不想設密碼可以直接壓Enter)。
+
+    壓Enter鍵，終端機會請你輸入兩次密碼\(不想設密碼可以直接壓Enter\)。
 
   * Step4:
-  
+
     接著去`c:\\使用者\(你的用戶名稱)\.ssh`，用記事本開啟`id_rsa.pub`就可以複製貼上喽!
+
 
 
