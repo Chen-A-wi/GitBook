@@ -23,4 +23,5 @@
   * [Mac相關](chapter1/macxiang-guan.md)
     * [Dropbox多開](chapter1/macxiang-guan/dropboxduo-kai.md)
   * [Gitbook撰寫技巧](chapter1/aaa.md)
+  * [Git SSH](chapter1/git-ssh.md)
 
