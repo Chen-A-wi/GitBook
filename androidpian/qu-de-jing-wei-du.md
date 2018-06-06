@@ -127,5 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-參考資料：[**Android通过原生APi获取经纬度**](https://www.jianshu.com/p/7ebbd2db749d)
+參考資料：
+[**Android通过原生APi获取经纬度**](https://www.jianshu.com/p/7ebbd2db749d)
+[**GPS定位經緯度**](https://my.oschina.net/JiangTun/blog/897650)
 

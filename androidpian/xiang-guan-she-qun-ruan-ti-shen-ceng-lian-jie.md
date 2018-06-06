@@ -1,4 +1,4 @@
-# 社群軟體深層連接
+# 社群軟體深層連接\(URL scheme\)
 
 ---
 
@@ -27,7 +27,7 @@
   startActivity(intent);
   ```
 
-更多資訊可以參考[Line Developer](https://developers.line.me/en/docs/messaging-api/using-line-url-scheme/#sending-text-messages)
+  更多資訊可以參考[Line Developer](https://developers.line.me/en/docs/messaging-api/using-line-url-scheme/#sending-text-messages)
 
 
 
