@@ -7,7 +7,7 @@
 * minifyEnable：是否混淆。
 * zipAlignEnabled：是否壓縮。
 * shrinkResources：是否移除無用的resources文件，可以減少APK的大小。
-* proguardFiles：系統預設的android混淆文件，內文已經有基本的混淆聲明了『,』ㄏ
+* proguardFiles：系統預設的android混淆文件，內文已經有基本的混淆聲明了`proguard-rules.pro`是可自定義的混淆一般皆在此做設定。
 
 ```java
 android {
