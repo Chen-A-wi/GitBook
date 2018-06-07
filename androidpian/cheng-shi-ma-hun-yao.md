@@ -179,3 +179,7 @@ android {
 
 寫到這裡你可能就會開始進行Buliding了但你會發現一件事，這在debug下是可以進行編譯的但是你想進一步編譯成APK進行上架時可能會發現怎麼會行不通呢？這是因為你實作時可能會加入第三方Library那這時
 
+
+[**參考資料**](https://blog.csdn.net/Two_Water/article/details/70233983)
+
+
