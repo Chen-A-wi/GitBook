@@ -28,7 +28,7 @@ android {
 }
 ```
 
-接著我們來看看進階點的`proguard-rules.pro`裡面的設定
+接著我們來看看進階點的`proguard-rules.pro`裡面的設定。
 
 ```java
 # Add project specific ProGuard rules here.
@@ -50,13 +50,13 @@ android {
 #}
 #
 
-# 代碼混淆壓縮比，一般在0~7之間，預設為5一般這不做條整。
+# 代碼混淆壓縮比，一般在0~7之間，預設為5一般這不做調整。
 -optimizationpasses 5
 
-# 混合时不使用大小写混合，混合后的类名为小写
+# 混合時不用大小寫混合，混合後的類別名為小寫。
 -dontusemixedcaseclassnames
 
-# 指定不去忽略非公共库的类
+# 指定不去忽略非公共庫的類別。
 -dontskipnonpubliclibraryclasses
 
 # 这句话能够使我们的项目混淆后产生映射文件
@@ -101,10 +101,10 @@ android {
 -keep public class com.android.vending.licensing.ILicensingService
 
 
-# 保留support下的所有类及其内部类
+# 保留support下的所有類別。
 -keep class android.support.** {*;}
 
-# 保留继承的
+# 保留繼承
 -keep public class * extends android.support.v4.**
 -keep public class * extends android.support.v7.**
 -keep public class * extends android.support.annotation.**
