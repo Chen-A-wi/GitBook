@@ -63,19 +63,19 @@ android {
 # 包含有类名->混淆后类名的映射关系
 -verbose
 
-# 指定不去忽略非公共库的类成员
+# 指定不忽略非公共庫的類別。
 -dontskipnonpubliclibraryclassmembers
 
-# 不做预校验，preverify是proguard的四个步骤之一，Android不需要preverify，去掉这一步能够加快混淆速度。
+# 不做預校驗，preverify是proguard的四個步驟之一，Android不需要preverify，去掉這一步能夠加快混淆速度。
 -dontpreverify
 
-# 保留Annotation不混淆
+# 保留Annotation不混淆。
 -keepattributes *Annotation*,InnerClasses
 
-# 避免混淆泛型
+# 避免混淆泛型。
 -keepattributes Signature
 
-# 抛出异常时保留代码行号
+# 異常時保留顯示行號。
 -keepattributes SourceFile,LineNumberTable
 
 # 指定混淆是采用的算法，后面的参数是一个过滤器
@@ -104,15 +104,15 @@ android {
 # 保留support下的所有類別。
 -keep class android.support.** {*;}
 
-# 保留繼承
+# 保留繼承。
 -keep public class * extends android.support.v4.**
 -keep public class * extends android.support.v7.**
 -keep public class * extends android.support.annotation.**
 
-# 保留R下面的资源
+# 保留R下面的資源。
 -keep class **.R$* {*;}
 
-# 保留本地native方法不被混淆
+# 保留本地native方法不被混淆。
 -keepclasseswithmembernames class * {
     native <methods>;
 }
@@ -179,7 +179,5 @@ android {
 
 寫到這裡你可能就會開始進行Buliding了但你會發現一件事，這在debug下是可以進行編譯的但是你想進一步編譯成APK進行上架時可能會發現怎麼會行不通呢？這是因為你實作時可能會加入第三方Library那這時
 
-
 [**參考資料**](https://blog.csdn.net/Two_Water/article/details/70233983)
-
 
