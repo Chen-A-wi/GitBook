@@ -15,7 +15,7 @@
     輸入`cat .ssh/id_rsa.pub`之後燒等下就會印出ssh金鑰了。
     
     <center>
-      <img src="/assets/GitSSh_Mac.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="720" height="380" border="10"/>
+      <img src="/assets/GitSSh_Mac.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="720" height="420" border="10"/>
     </center>
 
   最後再將它加入GitHub還是GitLab就結束了，即可使用sourceTree或是其他平台來同步專案你開發的專案嘍！
