@@ -310,6 +310,96 @@ public class MainActivity extends AppCompatActivity
 }
 ```
 
+取得item個別高度。
+
+```java
+private void getTotalHeightofListView(final ListView listView) {
+
+        ListAdapter mAdapter = listView.getAdapter();
+
+        int totalHeight = 0;
+
+        for (int i = 0; i < mAdapter.getCount(); i++) {
+            View mView = mAdapter.getView(i, null, listView);
+
+            mView.measure(
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+
+            totalHeight += mView.getMeasuredHeight();
+            Log.w("HEIGHT" + i, String.valueOf(totalHeight));
+
+        }
+
+        ViewGroup.LayoutParams params = listView.getLayoutParams();
+        params.height = totalHeight
+                + (listView.getDividerHeight() * (mAdapter.getCount() - 1));
+        listView.setLayoutParams(params);
+        listView.requestLayout();
+    }
+```
+
+監聽Listview滑動高度。
+
+```java
+private class listScrollListener implements AbsListView.OnScrollListener {
+        // 创建一个稀疏数组，用于存储Item的高度和mTop
+        private SparseArray recordSp = new SparseArray(0);
+        private int mCurrentFirstVisibleItem = 0;
+
+        @Override
+        public void onScrollStateChanged(AbsListView view, int scrollState) {
+        }
+
+        @Override
+        public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+            mCurrentFirstVisibleItem = firstVisibleItem; // 这里获取的Item是ListView中第一个可见的
+            View firstView = view.getChildAt(0);
+            if (null != firstView) {
+                ItemRecord itemRecord = (ItemRecord) recordSp.get(firstVisibleItem);
+                if (null == itemRecord) {
+                    itemRecord = new ItemRecord();
+                }
+                itemRecord.height = firstView.getHeight(); // top值总是小于或等于0的
+                itemRecord.top = firstView.getTop(); /** * 将当前第一个可见Item的高度和top存入SparseArray中， * SparseArray的key是Item的position */
+                recordSp.append(firstVisibleItem, itemRecord);
+                int scrollY = getScrollY();
+                if (scrollY >= 545) {
+                    if (mTitleTxt.getText().equals("")) {
+                        mTitleTxt.setText(mCheckFriendDataArrayList.get(0).userName);
+                        mToolbar.setBackgroundColor(Color.parseColor("#3F3F3F"));
+                    }
+                } else if (scrollY < 545) {
+                    if (!mTitleTxt.getText().equals("")) {
+                        mTitleTxt.setText("");
+                        mToolbar.setBackgroundColor(Color.parseColor("#00000000"));
+                    }
+                }
+                Log.i("========", "垂直滚动距离:" + scrollY);
+            }
+        }
+
+        private int getScrollY() {
+            int height = 0;
+            for (int i = 0; i < mCurrentFirstVisibleItem; i++) { /** * 取出所有已滑过的Item的高度，相加。 * 说明下这里为什么不直接用一个Item高度乘以所有已滑过的Item的数量， * 主要是考虑到可能为ListView添加Header这种情况，如果Header的高度 * 与Item的高度是相同的可以这样做，如果Header的高度不等于Item的高度， * 这时将Header的高度直接按照Item的高度来计算就不准确了。 */
+                ItemRecord itemRecord = (ItemRecord) recordSp.get(i);
+                height += itemRecord.height;
+            } //取出当前第一个可见Item的ItemRecord对象
+            ItemRecord itemRecord = (ItemRecord) recordSp.get(mCurrentFirstVisibleItem);
+            if (null == itemRecord) {
+                itemRecord = new ItemRecord();
+            } //由于存入的top值是小于或等于0的，这里是减去top值而不是加
+            return height - itemRecord.top;
+        }
+
+        class ItemRecord {
+            int height = 0;
+            int top = 0;
+        }
+    }
+```
+
 這有[GitHub](https://github.com/Taiwan-A-wi/ListviewDemo)測試範例
 
 參考資料：[**綠豆湯**]( https://litotom.com/2016/03/26/%E6%B8%85%E5%96%AE%E5%85%83%E4%BB%B6%E4%BB%8B%E7%B4%B9listview-adapter/l)
