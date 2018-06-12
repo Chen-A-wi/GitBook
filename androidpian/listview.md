@@ -365,17 +365,7 @@ private class listScrollListener implements AbsListView.OnScrollListener {
                 itemRecord.top = firstView.getTop(); /** * 将当前第一个可见Item的高度和top存入SparseArray中， * SparseArray的key是Item的position */
                 recordSp.append(firstVisibleItem, itemRecord);
                 int scrollY = getScrollY();
-                if (scrollY >= 545) {
-                    if (mTitleTxt.getText().equals("")) {
-                        mTitleTxt.setText(mCheckFriendDataArrayList.get(0).userName);
-                        mToolbar.setBackgroundColor(Color.parseColor("#3F3F3F"));
-                    }
-                } else if (scrollY < 545) {
-                    if (!mTitleTxt.getText().equals("")) {
-                        mTitleTxt.setText("");
-                        mToolbar.setBackgroundColor(Color.parseColor("#00000000"));
-                    }
-                }
+               
                 Log.i("========", "垂直滚动距离:" + scrollY);
             }
         }
