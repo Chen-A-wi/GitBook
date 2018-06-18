@@ -59,8 +59,8 @@ android {
 # 指定不去忽略非公共庫的類別。
 -dontskipnonpubliclibraryclasses
 
-# 这句话能够使我们的项目混淆后产生映射文件
-# 包含有类名->混淆后类名的映射关系
+# 這句話能夠使我們的項目混淆後產生映射文件。
+# 包含有類別名->混淆後類別名的映射關係。
 -verbose
 
 # 指定不忽略非公共庫的類別。
@@ -78,12 +78,12 @@ android {
 # 異常時保留顯示行號。
 -keepattributes SourceFile,LineNumberTable
 
-# 指定混淆採用的算法，後面的參數是個過濾器
-# 此過濾器事google推薦的算法一般不做更改
+# 指定混淆採用的算法，後面的參數是個過濾器。
+# 此過濾器事google推薦的算法一般不做更改。
 -optimizations !code/simplification/cast,!field/*,!class/merging/*
 
-# 保留我们使用的四大组件，自定义的Application等等这些类不被混淆
-# 因为这些子类都有可能被外部调用
+# 保留我們使用的四大组件，自定義的Application等等這些類別不被混淆。
+# 因為这些子類別都有可能被外部調用。
 -keep public class * extends android.app.Activity
 -keep public class * extends android.app.Appliction
 -keep public class * extends android.app.Service
@@ -112,12 +112,12 @@ android {
 }
 
 # 保留在Activity中的方法参数是view的方法，
-# 这样以来我们在layout中写的onClick就不会被影响
+# 這樣以来我們在layout中寫的onClick就不會被影響。
 -keepclassmembers class * extends android.app.Activity{
     public void *(android.view.View);
 }
 
-# 保留枚举类不被混淆
+# 保留列舉類不被混淆。
 -keepclassmembers enum * {
     public static **[] values();
     public static ** valueOf(java.lang.String);
@@ -132,7 +132,7 @@ android {
     public <init>(android.content.Context, android.util.AttributeSet, int);
 }
 
-# 保留Parcelable序列化类不被混淆
+# 保留Parcelable序列化類別不被混淆。
 -keep class * implements android.os.Parcelable {
     public static final android.os.Parcelable$Creator *;
 }
