@@ -28,7 +28,7 @@ android {
 }
 ```
 
-接著我們來看看進階點的`proguard-rules.pro`裡面的設定。
+接著我們來看看進階點的`proguard-rules.pro`裡面的設定，下面這是適應大部分專案的自定義設定。
 
 ```java
 # Add project specific ProGuard rules here.
@@ -78,15 +78,9 @@ android {
 # 異常時保留顯示行號。
 -keepattributes SourceFile,LineNumberTable
 
-# 指定混淆是采用的算法，后面的参数是一个过滤器
-# 这个过滤器是谷歌推荐的算法，一般不做更改
+# 指定混淆採用的算法，後面的參數是個過濾器
+# 此過濾器事google推薦的算法一般不做更改
 -optimizations !code/simplification/cast,!field/*,!class/merging/*
-
-#############################################
-#
-# Android开发中一些需要保留的公共部分
-#
-#############################################
 
 # 保留我们使用的四大组件，自定义的Application等等这些类不被混淆
 # 因为这些子类都有可能被外部调用
@@ -143,7 +137,7 @@ android {
     public static final android.os.Parcelable$Creator *;
 }
 
-# 保留Serializable序列化的类不被混淆
+# 保留Serializable序列化的類別不被混淆。
 -keepclassmembers class * implements java.io.Serializable {
     static final long serialVersionUID;
     private static final java.io.ObjectStreamField[] serialPersistentFields;
@@ -156,13 +150,13 @@ android {
     java.lang.Object readResolve();
 }
 
-# 对于带有回调函数的onXXEvent、**On*Listener的，不能被混淆
+# 對於帶有回調函數的onXXEvent、**On*Listener的，不能被混淆。
 -keepclassmembers class * {
     void *(**On*Event);
     void *(**On*Listener);
 }
 
-# webView处理，项目中没有使用到webView忽略即可
+# webView處理，如未使用到webView忽略即可。
 -keepclassmembers class fqcn.of.javascript.interface.for.webview {
     public *;
 }
@@ -177,7 +171,9 @@ android {
 
 ## 注意
 
-寫到這裡你可能就會開始進行Buliding了但你會發現一件事，這在debug下是可以進行編譯的但是你想進一步編譯成APK進行上架時可能會發現怎麼會行不通呢？這是因為你實作時可能會加入第三方Library那這時
+寫到這裡你可能就會開始進行Buliding了但你會發現一件事，這在debug下是可以進行編譯的但是你想進一步編譯成APK進行上架時可能會發現怎麼會行不通呢？這座指是不是又欺騙我的感情了呢？
+
+這是因為你實作時可能會加入第三方Library那這時，在程式碼轉譯成APK時
 
 [**參考資料**](https://blog.csdn.net/Two_Water/article/details/70233983)
 
