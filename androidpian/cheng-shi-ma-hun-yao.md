@@ -180,7 +180,7 @@ android {
 我目前下述okhttp的錯誤是先使用-dontwarn忽略的，如右側`-dontwarn okhttp3.**`。
 
 <center>
-  <img src="/assets/Obfuscated_Code_Error.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="400" height="180" border="10"/>
+  <img src="/assets/Obfuscated_Code_Error.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="600" height="180" border="10"/>
 </center>
 
 [**參考資料**](https://blog.csdn.net/Two_Water/article/details/70233983)
