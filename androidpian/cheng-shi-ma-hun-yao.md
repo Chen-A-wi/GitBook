@@ -173,7 +173,15 @@ android {
 
 寫到這裡你可能就會開始進行Buliding了但你會發現一件事，這在debug下是可以進行編譯的但是你想進一步編譯成APK進行上架時可能會發現怎麼會行不通呢？這作者是不是又欺騙我的感情了呢？
 
-這是因為你實作時可能會加入第三方Library那這時，在程式碼轉譯成APK時
+這是因為你實作時可能會加入第三方Library那這時，常見在程式碼轉譯成APK時會找不到第三方的方法類別等可以[參考此處](https://www.cnblogs.com/renkangke/archive/2013/05/31/3110635.html)。
+
+所以當你引進3、4個第三方的Library時這些錯誤數量就如下圖很可觀的，這時也別擔心慢慢解開來即可。
+
+我目前下述okhttp的錯誤是先使用-dontwarn忽略的，如右側`-dontwarn okhttp3.**`。
+
+<center>
+  <img src="/assets/Obfuscated_Code_Error.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="240" height="180" border="10"/>
+</center>
 
 [**參考資料**](https://blog.csdn.net/Two_Water/article/details/70233983)
 
