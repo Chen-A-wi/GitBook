@@ -177,7 +177,7 @@ android {
 
 所以當你引進3、4個第三方的Library時這些錯誤數量就如下圖很可觀的，這時也別擔心慢慢解開來即可。
 
-我目前下述okhttp的錯誤是先使用-dontwarn忽略的，如右側`-dontwarn okhttp3.**`。
+舉例來說我目前下述okhttp的錯誤是先使用-dontwarn忽略的，如右側`-dontwarn okhttp3.**`。
 
 <center>
   <img src="/assets/Obfuscated_Code_Error.png" alt="Cowman" style="border-radius:5px; box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4)" width="750" height="180" border="10"/>
