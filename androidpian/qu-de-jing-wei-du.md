@@ -5,9 +5,9 @@
 取得經緯度分為兩種方式一種為透過網路取得`NETWORK_PROVIDER`另一種則是透過GPS`GPS_PROVIDER`取得，稍等會詳加介紹。
 
 首先必須先進行權限的宣告分為下列兩點，讀者可以選擇自身適宜的或是保險些全加入AndroidManifest。
-*  `ACCESS_COARSE_LOCATION`：使用基地台訊號強弱進行三角定位，因此很容易受到建築物折射等外在的訊號干擾，所以僅能進行粗略的定位。
+*  **ACCESS_COARSE_LOCATION：**使用基地台訊號強弱進行三角定位，因此很容易受到建築物折射等外在的訊號干擾，所以僅能進行粗略的定位。
 
-* `ACCESS_FINE_LOCATION`：使用GPS進行精確的定位，因此手機必須有GPS功能，也由於藉由衛星定位準度也高出許多。
+* **ACCESS_FINE_LOCATION：**使用GPS進行精確的定位，因此手機必須有GPS功能，也由於藉由衛星定位準度也高出許多。
 
 ```java
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -111,6 +111,8 @@ public class LocationUtils {
     };
 }
 ```
+
+可以在mainActivity如下運用，因為有設立監聽事件所以在Activity生命週期onDestroy時必須取消衛星監聽事件。
 
 ```java
 public class MainActivity extends AppCompatActivity {
